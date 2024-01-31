@@ -1,0 +1,31 @@
+name: Compile all LaTeX to PDF
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  compile-all-latex:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Compile all LaTeX documents to PDF
+        id: compile-latex
+        for_each: file('latex/*.tex')
+        run: |
+          latex-command="pdflatex"
+          input-path="${{ github.file_path }}"
+          clean-build=true
+          keep-intermediates=false
+          compiled-pdf="${{ github.file_path }}.pdf"
+
+          mkdir -p "${{ github.workspace }}/compiled-pdfs"
+          mv "$compiled-pdf" "${{ github.workspace }}/compiled-pdfs"
+
+      - name: Upload compiled PDFs to artifacts
+        uses: actions/upload-artifact@v3
+        id: upload-artifact
+        with:
+          name: compiled-pdfs
+          path: compiled-pdfs
