@@ -1,31 +1,38 @@
-name: Compile all LaTeX to PDF
+name: Build LaTeX Documents
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
-  compile-all-latex:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      - name: Compile all LaTeX documents to PDF
-        id: compile-latex
-        for_each: file('latex/*.tex')
-        run: |
-          latex-command="pdflatex"
-          input-path="${{ github.file_path }}"
-          clean-build=true
-          keep-intermediates=false
-          compiled-pdf="${{ github.file_path }}.pdf"
+    - name: Set up LaTeX environment
+      uses: xu-cheng/latex-action@v2
+      with:
+        root_file: 'test.tex'  # Change this to your main LaTeX file
 
-          mkdir -p "${{ github.workspace }}/compiled-pdfs"
-          mv "$compiled-pdf" "${{ github.workspace }}/compiled-pdfs"
+    - name: Compile LaTeX documents
+      run: |
+        mkdir pdfs
+        for file in latex/*.tex; do
+          base_name=$(basename "$file" .tex)
+          pdflatex -interaction=nonstopmode -halt-on-error -output-directory=pdfs "$file"
+        done
 
-      - name: Upload compiled PDFs to artifacts
-        uses: actions/upload-artifact@v3
-        id: upload-artifact
-        with:
-          name: compiled-pdfs
-          path: compiled-pdfs
+    - name: Move PDFs to pdfs folder
+      run: mv pdfs/*.pdf pdfs/
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add pdfs/
+        git commit -m "Compile LaTeX documents to PDFs"
+        git push
