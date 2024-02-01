@@ -4,8 +4,8 @@
 - Po pushi do větve main se automaticky provede build latexových a markdownových dokumentů do adresáře *pdfs*
 
 - Během zpracování dodržujte prosím strukturu názvu souborů:
-  - společné otázky: `SP._.md`
-  - datové analýzy: `DA._.md`
-  - demografie: `ED._.md`
-  - ekonometrie: `EO._.md`
+  - společné otázky: `SP-_.md`
+  - datové analýzy: `DA-_.md`
+  - demografie: `ED-_.md`
+  - ekonometrie: `EO-_.md`
 - A také indikujte v seznamu labelem indikující stav, např.: `IN PROGRESS` za názvem otázky
