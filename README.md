@@ -8,4 +8,4 @@
   - datové analýzy: `DA._.md`
   - demografie: `ED._.md`
   - ekonometrie: `EO._.md`
-- A také indikujte v seznamu, že na otázce pracujete labelem indikující stav, např.: `IN PROGRESS` za názvem otázky
+- A také indikujte v seznamu labelem indikující stav, např.: `IN PROGRESS` za názvem otázky
