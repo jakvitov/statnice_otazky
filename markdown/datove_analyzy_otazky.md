@@ -13,24 +13,26 @@ Otázky jsem očíslovala pro přehlednost, aby jsme se na jednotlivé otázky m
 
 1. Odhady parametrů a testy hypotéz o parametrech Poissonova rozdělení. Asymptotický a přesný test. Test o střední hodnotě ve velkém výběru.
 
-1. Průměry – způsoby výpočtu, vlastnosti, příklady použití. Základní míry polohy a variability pro proměnné nominální, ordinální a kvantitativní.
+1. Průměry – způsoby výpočtu, vlastnosti, příklady použití. Základní míry polohy a variability pro proměnné nominální, ordinální a kvantitativní. `IN PROGRESS`
 
-1. Klasifikace indexů. Individuální a složené indexy (rozklad indexu proměnlivého složení). Souhrnné indexy a jejich využití v současné statistické praxi.
 
-1. Testy nezávislosti dvou kategoriálních proměnných (podmínky přibližných testů, postupy v případě jejich nedodržení).
 
-1. Jednofaktorová a dvoufaktorová analýza rozptylu. Interakce. Použití.
+2. Klasifikace indexů. Individuální a složené indexy (rozklad indexu proměnlivého složení). Souhrnné indexy a jejich využití v současné statistické praxi.
 
-1. Regresní analýza (jednoduchá regrese, vícenásobná regrese). Metody, testy, příklady.
+3. Testy nezávislosti dvou kategoriálních proměnných (podmínky přibližných testů, postupy v případě jejich nedodržení).
 
-1. Korelační analýza (párový korelační koeficient, dílčí korelační koeficient, vícenásobný korelační koeficient, Spearmanův korelační koeficient).
+4. Jednofaktorová a dvoufaktorová analýza rozptylu. Interakce. Použití.
 
-1. Třídění časových řad a jejich charakteristiky, dekompozice časových řad. Bazické a řetězové indexy. Modelování trendu v časových řadách (deterministické modely, adaptivní metody). Identifikace a modelování sezónnosti v časových řadách.
+5. Regresní analýza (jednoduchá regrese, vícenásobná regrese). Metody, testy, příklady.
 
-1. Náhodný výběr z konečné populace. Výběrová statistická šetření –možnosti realizace (druhy výběrů, velikost vzorku, způsoby zjišťování, možné chyby při sběru dat). Význam dlouhodobých a krátkodobých zjišťování, příklady zjišťování v současné statistické praxi
+6. Korelační analýza (párový korelační koeficient, dílčí korelační koeficient, vícenásobný korelační koeficient, Spearmanův korelační koeficient).
 
-1. Obecný přehled vícerozměrných statistických metod.
+7. Třídění časových řad a jejich charakteristiky, dekompozice časových řad. Bazické a řetězové indexy. Modelování trendu v časových řadách (deterministické modely, adaptivní metody). Identifikace a modelování sezónnosti v časových řadách.
 
-1. Makroekonomické ukazatele, jejich konstrukce, interpretace a vztahy mezi nimi.
+8. Náhodný výběr z konečné populace. Výběrová statistická šetření –možnosti realizace (druhy výběrů, velikost vzorku, způsoby zjišťování, možné chyby při sběru dat). Význam dlouhodobých a krátkodobých zjišťování, příklady zjišťování v současné statistické praxi
 
-1. Šetření a ukazatele ekonomické aktivity, trhu práce a životní úrovně obyvatel a domácností
+9.  Obecný přehled vícerozměrných statistických metod.
+
+10. Makroekonomické ukazatele, jejich konstrukce, interpretace a vztahy mezi nimi.
+
+11. Šetření a ukazatele ekonomické aktivity, trhu práce a životní úrovně obyvatel a domácností
