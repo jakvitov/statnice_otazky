@@ -9,3 +9,4 @@
   - demografie: `ED-_.md`
   - ekonometrie: `EO-_.md`
 - A také indikujte v seznamu labelem indikující stav, např.: `IN PROGRESS` za názvem otázky
+- Nebojte se opravovat chyby rovnou 
