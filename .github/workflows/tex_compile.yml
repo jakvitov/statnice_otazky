@@ -16,7 +16,7 @@ jobs:
     - name: Set up LaTeX environment
       uses: xu-cheng/latex-action@v2
       with:
-        root_file: latex/**.tex
+        root_file: latex/test.tex
 
     - name: Compile LaTeX documents
       run: |
