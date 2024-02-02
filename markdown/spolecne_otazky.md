@@ -1,6 +1,6 @@
-# Otázky z intranetu
+# Otázky z intranetu 
 
-Staženy 31. 1. 2024, snad budou aktuální i pro nás, bude nutné to zaktualizovat v dalším akademickém roce. 
+Staženy 31. 1. 2024, snad budou aktuální i pro nás, bude nutné to zaktualizovat v dalším akademickém roce.  
 Otázky jsem očíslovala pro přehlednost, aby jsme se na jednotlivé otázky mohli odvolávat i díky číslům.
 
 
