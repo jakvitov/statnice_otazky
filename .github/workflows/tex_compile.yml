@@ -20,7 +20,6 @@ jobs:
 
     - name: Compile LaTeX documents
       run: |
-        mkdir pdfs
         for file in latex/*.tex; do
           base_name=$(basename "$file" .tex)
           pdflatex -interaction=nonstopmode -halt-on-error -output-directory=pdfs "$file"
