@@ -6,32 +6,23 @@ on:
       - main
 
 jobs:
-  build:
+  commit:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-    - name: Set up LaTeX environment
-      uses: xu-cheng/latex-action@v2
-      with:
-        root_file: latex/test.tex
+      - name: Compile latex
+        run: |
+          echo "Compiling latex files."
+          sudo bash scripts/compile_tex.bash
 
-    - name: Compile LaTeX documents
-      run: |
-        for file in latex/*.tex; do
-          base_name=$(basename "$file" .tex)
-          pdflatex -interaction=nonstopmode -halt-on-error -output-directory=pdfs "$file"
-        done
-
-    - name: Move PDFs to pdfs folder
-      run: mv pdfs/*.pdf pdfs/
-
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add pdfs/
-        git commit -m "Compile LaTeX documents to PDFs"
-        git push
+      - name: Commit latex files
+        run: |
+          COMMIT_MESSAGE="LaTeX compiled at ${date -u '+%Y-%m-%dT%H:%M:%SZ'} commit hash ${git rev-parse HEAD}."
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "${COMMIT_MESSAGE}"
+          git push
