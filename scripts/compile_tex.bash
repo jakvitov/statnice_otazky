@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Source directory name
-NAME=../latex/
+NAME=latex/
 
 sudo apt-get install texlive-latex-base
 
