@@ -27,4 +27,4 @@ jobs:
           git config --global user.name "GitHub Actions"
           git add .
           git commit -m "${COMMIT_MESSAGE}"
-          git push https://x-access-token:${COMMIT_KEY}@github.com/jakvitov/statnice_otazky
+          git push https://x-access-token:${COMMIT_KEY}@github.com/statnice_otazky
