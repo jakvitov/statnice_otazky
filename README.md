@@ -1,3 +1,7 @@
+![LaTeX Build](https://github.com/jakvitov/webserv/actions/workflows/tex_compile.yml/badge.svg)
+![MD Build](https://github.com/jakvitov/webserv/actions/workflows/md_compile.yml/badge.svg)
+
+
 # Otázky ke státnicím 
 ## Struktura repozitáře
 - Otázky zpracováváme ve dvou hlavních adresářích *latex* pro LaTeX a *markdown* pro markdown. 
