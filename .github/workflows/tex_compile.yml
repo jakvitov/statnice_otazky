@@ -20,7 +20,9 @@ jobs:
 
       - name: Commit latex files
         run: |
-          COMMIT_MESSAGE="LaTeX compiled at ${date -u '+%Y-%m-%dT%H:%M:%SZ'} commit hash ${git rev-parse HEAD}."
+          current_date=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+          commit_hash=$(git rev-parse HEAD)
+          COMMIT_MESSAGE="LaTeX compiled at ${current_date} commit hash ${commit_hash}."
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add .
