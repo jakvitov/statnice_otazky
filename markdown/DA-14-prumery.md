@@ -59,6 +59,7 @@ $x̄_H \le x̄_G \le x̄_A \le x̄_K$
 
 
 #### chronologický průměr 
+- používá se pro okamžikové proměnné 
 
 #### klouzavé průměry 
 

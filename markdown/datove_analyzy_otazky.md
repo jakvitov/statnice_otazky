@@ -15,8 +15,6 @@ Otázky jsem očíslovala pro přehlednost, aby jsme se na jednotlivé otázky m
 
 1. Průměry – způsoby výpočtu, vlastnosti, příklady použití. Základní míry polohy a variability pro proměnné nominální, ordinální a kvantitativní. `IN PROGRESS`
 
-
-
 2. Klasifikace indexů. Individuální a složené indexy (rozklad indexu proměnlivého složení). Souhrnné indexy a jejich využití v současné statistické praxi.
 
 3. Testy nezávislosti dvou kategoriálních proměnných (podmínky přibližných testů, postupy v případě jejich nedodržení).
