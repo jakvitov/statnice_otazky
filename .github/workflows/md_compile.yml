@@ -26,6 +26,7 @@ jobs:
           COMMIT_MESSAGE="Markdown compiled at ${current_date} commit hash ${commit_hash}."
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
+          git pull  
           git add .
           git commit -m "${COMMIT_MESSAGE}"
           git push https://${COMMIT_KEY}@github.com/jakvitov/statnice_otazky.git
