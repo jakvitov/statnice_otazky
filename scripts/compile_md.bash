@@ -3,7 +3,7 @@ echo "Started markdown compile at ${current_date}"
 
 sudo apt-get install pandoc
 
-NAME=markdown/
+NAME=../markdown/
 
 rm pdfs/err.log
 
@@ -20,8 +20,8 @@ find "$NAME" -type f | while read -r file; do
     #Remove non printable characters
     echo "Creating res file ${res_file}"
 
-    err=$(pandoc -f markdown+smart -t latex -o ${res_file} ${file} 2>&1 >/dev/tty)
-
+    err=$(pandoc -f markdown+smart -t latex -o ${res_file} ${file} 2>&1 >./temp)
+    rm ./temp
     if [ $? -eq 0 ]; then
         echo "Compilation of ${file} OK."
     else 
