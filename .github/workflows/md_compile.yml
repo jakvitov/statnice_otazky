@@ -18,7 +18,7 @@ jobs:
         run: |
           echo "Compiling markdown files."
           sudo bash scripts/compile_md.bash
-          ll pdfs
+          ls -l pdfs
 
       - name: Commit markdown files
         run: |
