@@ -5,6 +5,7 @@ sudo apt-get install pandoc
 
 NAME=markdown/
 
+mkdir pdfs
 rm pdfs/err.log
 
 #Recursive iteration trough directory files 
