@@ -3,7 +3,7 @@ echo "Started markdown compile at ${current_date}"
 
 sudo apt-get install pandoc
 
-NAME=../markdown/
+NAME=markdown/
 
 rm pdfs/err.log
 
