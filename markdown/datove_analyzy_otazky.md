@@ -5,7 +5,7 @@ Otázky jsem očíslovala pro přehlednost, aby jsme se na jednotlivé otázky m
 
 **Prvních devět otázek je v souboru `spolecne-otazky.md`.**
 
-10. Stochastická konvergence. Centrální limitní věta a zákon velkých čísel. Použití ve statistice.
+10. Stochastická konvergence. Centrální limitní věta a zákon velkých čísel. Použití ve statistice. `IN PROGRESS`
 
 1. Odhady parametrů v normálním rozdělení. Testy o parametrech normálního rozdělení (jeden a dva výběry).
 
