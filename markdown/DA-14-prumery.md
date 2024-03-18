@@ -96,7 +96,7 @@ rozklad rozptylu - statistická metoda k odhalení odlišnosti skupin (ANOVA)
 ### Variační koeficient 
 - nemá jednotky, můžu porovnávat různé soubory dat
 
-$$ V_x = \frac{D(X)}{E(X)} $$  
+$$V_x = \frac{D(X)}{E(X)}$$  
 TODO - kontrola vzorce 
 
 #### kvalitativní proměnné 
