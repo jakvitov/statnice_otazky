@@ -18,7 +18,7 @@ Můžeme tak zaměňovat ostatní rozdělení za normální rozdělení. Toto je
 máme pak dál konkretní transformace CLV, pomocí kterých přistupujeme k řešešní konkrétních problémů. 
 
 obecná transformace: 
-$$ U = \frac{X-E(X)}{\sqrt{D(X)}}; U \sim N(0,1)$$
+$$U = \frac{X-E(X)}{\sqrt{D(X)}}; U \sim N(0,1)$$
 
 je přesnější při $n \to \infty$ 
 
