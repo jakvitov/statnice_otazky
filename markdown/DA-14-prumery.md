@@ -1,6 +1,6 @@
 # 14. Průměry – způsoby výpočtu, vlastnosti, příklady použití. Základní míry polohy a variability pro proměnné nominální, ordinální a kvantitativní.
 
-  
+
 
 ## Typy proměnných
 

@@ -21,7 +21,7 @@ Otázky jsem očíslovala pro přehlednost, aby jsme se na jednotlivé otázky m
 
 4. Jednofaktorová a dvoufaktorová analýza rozptylu. Interakce. Použití.
 
-5. Regresní analýza (jednoduchá regrese, vícenásobná regrese). Metody, testy, příklady.
+5. Regresní analýza (jednoduchá regrese, vícenásobná regrese). Metody, testy, příklady. `IN PROGRESS`
 
 6. Korelační analýza (párový korelační koeficient, dílčí korelační koeficient, vícenásobný korelační koeficient, Spearmanův korelační koeficient).
 
